@@ -6,7 +6,7 @@ import { Star } from "lucide-react";
 import Image from "next/image";
 
 export function HeroAtingiTest() {
-  const containerVariants = {
+  const containerVariants: any = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -17,7 +17,7 @@ export function HeroAtingiTest() {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: any = {
     hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
@@ -26,7 +26,7 @@ export function HeroAtingiTest() {
     },
   };
 
-  const cursorLeftVariants = {
+  const cursorLeftVariants: any = {
     animate: {
       y: [0, -15, 0, 10, 0],
       x: [0, 10, 0, -5, 0],
@@ -34,7 +34,7 @@ export function HeroAtingiTest() {
     },
   };
 
-  const cursorRightVariants = {
+  const cursorRightVariants: any = {
     animate: {
       y: [0, 15, 0, -10, 0],
       x: [0, -10, 0, 5, 0],
