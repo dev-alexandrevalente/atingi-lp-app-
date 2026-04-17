@@ -1,0 +1,9 @@
+cd /var/www/landingpage
+tar -xf update_src.tar
+rm update_src.tar
+npm install
+npm run build
+pm2 restart landingpage --update-env || PORT=3000 pm2 start npm --name landingpage -- start
+pm2 save
+sudo nginx -t
+sudo systemctl reload nginx

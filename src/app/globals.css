@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Instrument Sans", "Inter", system-ui, sans-serif;
+  --color-brand: #02CE37;
+  --color-brand-dark: #01a82d;
+  --color-brand-glow: rgba(2, 206, 55, 0.35);
+  --color-navy: #0B0D25;
+  --color-ink: #101828;
+  --color-ink-secondary: #344054;
+  --color-muted: #667085;
+  --color-muted-light: #98a2b3;
+  --color-body: #f4f8ff;
+  --color-card: #ffffff;
+  --color-border: #e5e7eb;
+  --color-soft: #f9fafb;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-body);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(2, 206, 55, 0.15);
+  color: var(--color-ink);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.1); border-radius: 3px; }
+
+/* ═══ HERO ORB ANIMATION ═══ */
+@keyframes orb-drift {
+  0% { transform: translate(-50%, 0%) scale(1); filter: blur(80px); }
+  25% { transform: translate(-45%, -8%) scale(1.08); filter: blur(90px); }
+  50% { transform: translate(-52%, 5%) scale(0.95); filter: blur(75px); }
+  75% { transform: translate(-48%, -3%) scale(1.03); filter: blur(85px); }
+  100% { transform: translate(-50%, 0%) scale(1); filter: blur(80px); }
+}
+
+@keyframes orb-pulse {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 0.75; }
+}
+
+@keyframes orb-secondary-drift {
+  0% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -20px) scale(1.1); }
+  66% { transform: translate(-20px, 15px) scale(0.9); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+
+/* ═══ MARQUEE ═══ */
+@keyframes marquee-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  animation: marquee-scroll 30s linear infinite;
+}
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ═══ PROCESSING DOT ═══ */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.3; transform: scale(0.7); }
+}
+
+/* ═══ STATUS GLOW ═══ */
+@keyframes status-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(2, 206, 55, 0.4); }
+  50% { box-shadow: 0 0 0 6px rgba(2, 206, 55, 0); }
+}
+
+/* ═══ FLOAT ═══ */
+@keyframes float-gentle {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+/* ═══ VERTICAL LINES ═══ */
+.hero-grid-lines {
+  background-image:
+    linear-gradient(to right, rgba(2, 206, 55, 0.12) 1px, transparent 1px);
+  background-size: 200px 100%;
+}
+
+/* ═══ HERO BADGE BORDER ORBIT ═══ */
+/* 
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+@keyframes border-orbit {
+  to { --angle: 360deg; }
+}
+*/
+
+/* ═══ TRUSTBAR MARQUEE ═══ */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* ═══ SCROLL REVEAL — replaces framer-motion whileInView for RSC sections ═══ */
+/* Elements start hidden; JS adds .is-visible via IntersectionObserver */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* Delay variants */
+.reveal-d1 { transition-delay: 100ms; }
+.reveal-d2 { transition-delay: 200ms; }
+.reveal-d3 { transition-delay: 300ms; }
+.reveal-d4 { transition-delay: 400ms; }
+.reveal-d5 { transition-delay: 500ms; }
+/* Scale-up variant (for cards) */
+.reveal-scale {
+  opacity: 0;
+  transform: translateY(16px) scale(0.97);
+  transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1), transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal-scale.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}

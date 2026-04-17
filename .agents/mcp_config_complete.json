@@ -1,0 +1,75 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "serverUrl": "https://mcp.supabase.com/mcp?project_ref=krwausndlbzkfwedgefv"
+    },
+    "n8n-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "n8n-mcp"
+      ],
+      "env": {
+        "MCP_MODE": "stdio",
+        "LOG_LEVEL": "error",
+        "DISABLE_CONSOLE_OUTPUT": "true",
+        "N8N_API_URL": "https://n8n-editor.zenlya.com.br",
+        "N8N_BASE_URL": "https://n8n-editor.zenlya.com.br",
+        "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiOGM0OWY1Ni03ODE2LTQ4ZTItOGE1Yi04NTE2ZTVlZTIxNGYiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzc0OTE2NDIyfQ.bXUYC9r78XRNymKs35sHPw4M1zjM1HoTpK-xP6pKgqM"
+      }
+    },
+    "supabase-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--access-token",
+        "sbp_912ae62fbee85e69cabd4b5ce548f62e18a6948e"
+      ],
+      "env": {}
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp",
+        "--api-key",
+        "ctx7sk-565d6efd-eea3-4e0e-ad85-9b4e5bd248d1"
+      ]
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "shadcn@latest",
+        "mcp"
+      ]
+    },
+    "convex": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "convex@latest",
+        "mcp",
+        "start"
+      ]
+    },
+    "testsprite": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@testsprite/testsprite-mcp@latest"
+      ],
+      "env": {
+        "API_KEY": "sk-user-CWE1MytyFiQYnTMzkUq6Jrcd38-Bd-EOl8OXgyBs51GYTxxdt1MxECwr1bCbe2PNSRgC_d7HNgzwI8brzMyHR06g24aSpDO4zkBJnn1Y1WhM8Bh_KCo1Fki2XLSNW38sleU"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ]
+    }
+  }
+}

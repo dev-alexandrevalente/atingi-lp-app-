@@ -1,0 +1,360 @@
+﻿src/components/quiz/QuizFunnel.tsx(681,88): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(682,96): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(684,96): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(686,96): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(687,90): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(689,96): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(690,90): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(692,96): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(693,90): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(695,98): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(696,88): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(697,98): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(698,88): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(710,90): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(711,111): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(713,90): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(714,114): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(716,88): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(717,112): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(719,90): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(720,114): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(722,130): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(735,109): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(740,107): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(748,109): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(750,110): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(754,97): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(766,95): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(768,158): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/quiz/QuizFunnel.tsx(782,143): error TS2322: Type '{ hidden: { pathLength: number; opacity: number; }; visible: (i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { ...; }; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'Variant'.
+      Type '(i: number) => { pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetResolver'.
+        Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'string | TargetAndTransition'.
+          Type '{ pathLength: number; opacity: number; transition: { pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }; }' is not assignable to type 'TargetAndTransition'.
+            Types of property 'transition' are incompatible.
+              Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'Transition<any> | undefined'.
+                Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                  Type '{ pathLength: { delay: number; duration: number; ease: string; }; opacity: { delay: number; duration: number; }; }' is not assignable to type 'SVGPathTransitions'.
+                    The types of 'pathLength.ease' are incompatible between these types.
+                      Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.

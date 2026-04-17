@@ -1,0 +1,36 @@
+{
+  "name": "landingpage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:v2": "set FUNNEL_VERSION=v2&& next dev",
+    "build": "next build",
+    "build:v1": "set FUNNEL_VERSION=v1&& next build && if exist dist rmdir /s /q dist && rename out dist",
+    "build:v2": "set FUNNEL_VERSION=v2&& next build && if exist dist-v2 rmdir /s /q dist-v2 && rename out dist-v2",
+    "build:all": "npm run build:v1 && npm run build:v2",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.100.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.8.0",
+    "next": "16.2.1",
+    "ogl": "^1.0.11",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "recharts": "^3.8.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "cross-env": "^10.1.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
